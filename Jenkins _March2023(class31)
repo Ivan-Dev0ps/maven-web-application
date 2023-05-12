@@ -31,5 +31,4 @@ Build is done.
 
 Ivan-Dev0ps''', recipientProviders: [developers(), contributor(), upstreamDevelopers()], subject: 'Build Status', to: 'ivanopokuasiamah@gmail.com'
  }
-
 }
