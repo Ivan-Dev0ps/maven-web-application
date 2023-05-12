@@ -6,7 +6,6 @@ node{
 stage('2.MavenBuild'){
    sh "${mavenHome}/bin/mvn package"   
  }
- /*
  stage('3codequality'){
       sh "${mavenHome}/bin/mvn sonar:sonar"
  }
@@ -32,5 +31,4 @@ Build is done.
 
 Ivan-Dev0ps''', recipientProviders: [developers(), contributor(), upstreamDevelopers()], subject: 'Build Status', to: 'ivanopokuasiamah@gmail.com'
  }
-*/
 }
